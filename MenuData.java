@@ -3,10 +3,11 @@ import java.io.InputStreamReader;
 
 public class MenuData {
   public void getMenu() {
-		System.out.println("1plus");
-		System.out.println("2addition");
-		System.out.println("3multiply");
-		System.out.println("4devided");
+		System.out.println("[1]plus");
+		System.out.println("[2]addition");
+		System.out.println("[3]multiply");
+		System.out.println("[4]devided");
+		System.out.println("[0]exit");
 		System.out.println("input1-4 number:");
 	}
 
