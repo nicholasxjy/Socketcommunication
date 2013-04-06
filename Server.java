@@ -10,7 +10,7 @@ public class Server {
 		System.out.println("waiting for clients connect...");
 		while (flag) {
 			
-			new Thread(new ClientThread(ss.accept())).start();
+			new Thread(new MulThread(ss.accept())).start();
 		}
 		ss.close();
 	}
